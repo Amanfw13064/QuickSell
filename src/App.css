@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .App-logo {
@@ -12,14 +13,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 #count{
   display: flex;
   margin: auto;
   align-items: center;
   width: 180px;
   height:56px;
-  border: 1px solid #FBE8E8 ;
-  border-radius: 8px;
+  border: 1px solid #B24242 ;
+  border-radius: 8px ;
 
 }
 #count>div:nth-child(1){
@@ -43,24 +45,28 @@
   padding-left: 11px;
   color:#B24242;
   border:none;
+  border-left:#B24242 1px solid;
 }
 #count>div:nth-child(3){
   background:#B24242;
   width: 60px;
-  height:56px;
+  height:57px;
   cursor: pointer;
   box-sizing: border-box;
   font-size: 25px;
   padding: 8px;
   color: #FBE8E8;
   border: none;
-
+  border-top-right-radius: 5px;
+  border-end-end-radius: 5px;
+  
 }
 .App{
   width:257px ;
   margin: auto;
   margin-top: 200px;
   height: 130px;
+  
 }
 
 #div-su{
